@@ -61,7 +61,7 @@ EOF
 
 gen_data() {
     seq $FIRST_PORT $LAST_PORT | while read port; do
-        echo "Thuan$port/ThuanCoder/$IP4/$port/$(gen64 $IP6)"
+        echo "Thuan99$port/ThuanCoder/$IP4/$port/$(gen64 $IP6)"
     done
 }
 
